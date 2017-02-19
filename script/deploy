@@ -4,7 +4,7 @@ cd /home
 ssh -i id_rsa app@54.82.211.138
   cd ~/node-demo
   git pull
-  npm install --production
+  npm install
   forever restartall
   exit
 EOF
