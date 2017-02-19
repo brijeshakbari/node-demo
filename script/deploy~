@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ssh -T -i /home/id_rsa app@54.82.211.138
+ssh -T -i /home/id_rsa app@54.82.211.138 -vvvv
   cd ~/node-demo
   git pull
   npm install
