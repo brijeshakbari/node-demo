@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd /home/app/.ssh/
+cd /home
 #ssh -i id_rsa app@APP.SERVER.IP.ADDRESS <<EOF
 ssh -i id_rsa app@54.82.211.138 << EOF
   cd ~/node-demo
